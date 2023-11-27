@@ -56,6 +56,8 @@ $i++
 # Two ways to use it
 # First, with an individual password for each user that come from a column
 # Or, set a standard password 
+# For more information visit https://learn.microsoft.com/en-us/graph/api/resources/passwordprofile?view=graph-rest-1.0
+
 $PasswordProfile = @{
   Password = $_.Pass # or Password = "Userpassword"
   }
